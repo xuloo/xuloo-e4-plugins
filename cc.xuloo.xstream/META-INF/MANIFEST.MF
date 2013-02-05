@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Xstream
+Bundle-SymbolicName: cc.xuloo.xstream
+Bundle-Version: 1.0.0
+Export-Package: com.thoughtworks.xstream.annotations,
+ com.thoughtworks.xstream.io,
+ com.thoughtworks.xstream.io.binary,
+ com.thoughtworks.xstream.io.json
+Require-Bundle: javax.xml,
+ org.eclipse.core.runtime,
+ cc.xuloo.joda.time
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

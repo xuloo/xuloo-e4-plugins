@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Io
 Bundle-SymbolicName: cc.xuloo.commons.io
-Bundle-Version: 2.3
+Bundle-Version: 2.3.0
 Export-Package: org.apache.commons.io,
  org.apache.commons.io.comparator,
  org.apache.commons.io.filefilter,

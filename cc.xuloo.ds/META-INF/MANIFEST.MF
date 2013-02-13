@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Data Structures
+Bundle-SymbolicName: cc.xuloo.ds
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: cc.xuloo.ds
+Require-Bundle: cc.xuloo.commons.io;bundle-version="2.3.0"

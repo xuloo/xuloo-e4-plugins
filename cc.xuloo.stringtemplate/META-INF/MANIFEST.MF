@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Stringtemplate
+Bundle-SymbolicName: cc.xuloo.stringtemplate
+Bundle-Version: 1.0.0
+Export-Package: org.stringtemplate.v4,
+ org.stringtemplate.v4.compiler,
+ org.stringtemplate.v4.debug,
+ org.stringtemplate.v4.gui,
+ org.stringtemplate.v4.misc
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: cc.xuloo.antlr.runtime;bundle-version="1.0.0"

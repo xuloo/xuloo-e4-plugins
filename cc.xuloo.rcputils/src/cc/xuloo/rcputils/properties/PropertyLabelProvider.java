@@ -12,8 +12,6 @@ package cc.xuloo.rcputils.properties;
 
 import org.eclipse.jface.viewers.LabelProvider;
 
-import cc.xuloo.rcputils.internal.RcpUtilsPlugin;
-
 /**
  * PropertyLabelProvider is a LabelProvider that gets labels using a nested bean
  * property string like "company.country.name".
@@ -48,7 +46,7 @@ public class PropertyLabelProvider extends LabelProvider {
 				return String.valueOf(formattedValue);
 			}
 		} catch (Exception e) {
-			RcpUtilsPlugin.logException(e);
+			//RcpUtilsPlugin.logException(e);
 		}
 		return "";
 	}

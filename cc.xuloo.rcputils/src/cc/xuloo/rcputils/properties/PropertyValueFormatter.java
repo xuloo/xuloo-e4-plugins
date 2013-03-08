@@ -10,8 +10,6 @@
  *******************************************************************************/
 package cc.xuloo.rcputils.properties;
 
-import cc.xuloo.rcputils.internal.RcpUtilsPlugin;
-
 /**
  * PropertyValueFormatter describes a conversion from a object to some property
  * of the object.
@@ -31,7 +29,7 @@ public class PropertyValueFormatter implements IValueFormatter {
 		try {
 			return valueHandler.getValue(obj);
 		} catch (Exception e) {
-			RcpUtilsPlugin.logException(e);
+			//RcpUtilsPlugin.logException(e);
 			return null;
 		}
 	}

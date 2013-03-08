@@ -13,7 +13,6 @@ package cc.xuloo.rcputils.properties;
 import org.eclipse.jface.viewers.CellLabelProvider;
 import org.eclipse.jface.viewers.ViewerCell;
 
-import cc.xuloo.rcputils.internal.RcpUtilsPlugin;
 import cc.xuloo.rcputils.tables.ICellFormatter;
 
 /**
@@ -56,7 +55,7 @@ public class PropertyCellLabelProvider extends CellLabelProvider {
 				cellFormatter.formatCell(cell, rawValue);
 			}
 		} catch (Exception e) {
-			RcpUtilsPlugin.logException(e);
+			//RcpUtilsPlugin.logException(e);
 		}
 	}
 }

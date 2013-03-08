@@ -14,8 +14,6 @@ import org.eclipse.jface.viewers.CellEditor;
 import org.eclipse.jface.viewers.ColumnViewer;
 import org.eclipse.jface.viewers.EditingSupport;
 
-import cc.xuloo.rcputils.internal.RcpUtilsPlugin;
-
 /**
  * EditingSupport for JFace viewers that gets and sets the value using a nested
  * bean property string like "company.country.name".
@@ -62,7 +60,7 @@ public class PropertyEditingSupport extends EditingSupport {
 		} catch (Exception e) {
 			// Exceptions are not re-thrown because EditingSupport is touchy in
 			// that regard
-			RcpUtilsPlugin.logException(e);
+			//RcpUtilsPlugin.logException(e);
 			return null;
 		}
 	}
@@ -79,7 +77,7 @@ public class PropertyEditingSupport extends EditingSupport {
 		} catch (Exception e) {
 			// Exceptions are not re-thrown because EditingSupport is touchy in
 			// that regard
-			RcpUtilsPlugin.logException(e);
+			//RcpUtilsPlugin.logException(e);
 		}
 	}
 

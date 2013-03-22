@@ -26,5 +26,5 @@ Export-Package: org.apache.http.auth,
  org.apache.http.impl.cookie
 Require-Bundle: org.eclipse.core.runtime,
  cc.xuloo.httpcomponents.httpcore;bundle-version="1.0.0",
- cc.xuloo.commons.logging;bundle-version="1.1.1"
+ org.apache.commons.logging;bundle-version="1.0.4"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6

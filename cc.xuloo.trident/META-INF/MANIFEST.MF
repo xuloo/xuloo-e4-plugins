@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Trident
+Bundle-SymbolicName: cc.xuloo.trident
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.swt;bundle-version="3.100.1"
+Export-Package: org.pushingpixels.trident,
+ org.pushingpixels.trident.callback,
+ org.pushingpixels.trident.ease,
+ org.pushingpixels.trident.interpolator,
+ org.pushingpixels.trident.swing,
+ org.pushingpixels.trident.swt

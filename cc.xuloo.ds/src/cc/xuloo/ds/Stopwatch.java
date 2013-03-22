@@ -2,7 +2,7 @@ package cc.xuloo.ds;
 
 public class Stopwatch {
 
-	private long startTime = 0;
+	private long startTime = System.currentTimeMillis();
     private long stopTime = 0;
     private boolean running = false;
 

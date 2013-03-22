@@ -1,7 +1,5 @@
 package cc.xuloo.rcputils.tables.format;
 
-import java.text.ParseException;
-
 import org.joda.time.ReadableInstant;
 import org.joda.time.ReadablePartial;
 

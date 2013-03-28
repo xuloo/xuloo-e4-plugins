@@ -5,4 +5,6 @@ Bundle-SymbolicName: cc.xuloo.ds
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Export-Package: cc.xuloo.ds
-Require-Bundle: org.apache.commons.io;bundle-version="2.0.1"
+Require-Bundle: org.apache.commons.io;bundle-version="2.0.1",
+ cc.xuloo.joda.time;bundle-version="1.0.0",
+ org.junit

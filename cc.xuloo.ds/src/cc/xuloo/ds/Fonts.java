@@ -12,12 +12,20 @@ public class Fonts {
 	public static final Font bold12;
 	public static final Font normal;
 	public static final Font small;
+	
+	public static final Font white;
+	public static final Font grey;
+	public static final Font big;
 
 	static {
 		bold14 = new Font(Display.getDefault(), DEFAULT_FONT_NAME, 12, SWT.BOLD);
 		bold12 = new Font(Display.getDefault(), DEFAULT_FONT_NAME, 11, SWT.BOLD);
 		normal = new Font(Display.getDefault(), DEFAULT_FONT_NAME, 12, SWT.NONE);
 		small = new Font(Display.getDefault(), DEFAULT_FONT_NAME, 10, SWT.NONE);
+		
+		white = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 18, SWT.BOLD);
+		grey = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 14, SWT.NONE);
+		big = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 22, SWT.BOLD);
 	}
 
 //	public static final String HELVETICA_NEUE_LT_PRO_LIGHT = "HelveticaNeueLTPro-Lt.otf";

@@ -7,4 +7,5 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Export-Package: cc.xuloo.ds
 Require-Bundle: org.apache.commons.io;bundle-version="2.0.1",
  cc.xuloo.joda.time;bundle-version="1.0.0",
- org.junit
+ org.junit,
+ org.eclipse.swt;bundle-version="3.100.1"

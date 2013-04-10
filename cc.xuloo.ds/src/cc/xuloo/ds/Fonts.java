@@ -24,14 +24,14 @@ public class Fonts {
 	public static final Font scoreFont;
 
 	static {
-		bold14 = new Font(Display.getDefault(), DEFAULT_FONT_NAME, 12, SWT.BOLD);
-		bold12 = new Font(Display.getDefault(), DEFAULT_FONT_NAME, 11, SWT.BOLD);
-		normal = new Font(Display.getDefault(), DEFAULT_FONT_NAME, 12, SWT.NONE);
-		small = new Font(Display.getDefault(), DEFAULT_FONT_NAME, 10, SWT.NONE);
+		bold14 = new Font(Display.getDefault(), DEFAULT_FONT_NAME, 10, SWT.BOLD);
+		bold12 = new Font(Display.getDefault(), DEFAULT_FONT_NAME, 10, SWT.BOLD);
+		normal = new Font(Display.getDefault(), DEFAULT_FONT_NAME, 10, SWT.NONE);
+		small = new Font(Display.getDefault(), DEFAULT_FONT_NAME, 9, SWT.NONE);
 		
-		white = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 18, SWT.BOLD);
-		grey = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 14, SWT.NONE);
-		big = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 22, SWT.BOLD);
+		white = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 16, SWT.BOLD);
+		grey = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 12, SWT.NONE);
+		big = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 20, SWT.BOLD);
 		
 		dateFont = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 8, SWT.NONE);
 		iconFont = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 6, SWT.NONE);

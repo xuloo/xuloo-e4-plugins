@@ -22,6 +22,9 @@ public class Fonts {
 	public static final Font fixtureFont;
 	public static final Font competitionFont;
 	public static final Font scoreFont;
+	
+	public static final Font largeFont;
+	public static final Font smallFont;
 
 	static {
 		bold14 = new Font(Display.getDefault(), DEFAULT_FONT_NAME, 10, SWT.BOLD);
@@ -38,6 +41,9 @@ public class Fonts {
 		fixtureFont = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 14, SWT.BOLD);
 		competitionFont = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 12, SWT.NONE);
 		scoreFont = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 12, SWT.NONE);
+		
+		largeFont = new Font(null, Fonts.DEFAULT_FONT_NAME, 12, SWT.BOLD);
+		smallFont = new Font(null, Fonts.DEFAULT_FONT_NAME, 10, SWT.BOLD);
 	}
 
 //	public static final String HELVETICA_NEUE_LT_PRO_LIGHT = "HelveticaNeueLTPro-Lt.otf";

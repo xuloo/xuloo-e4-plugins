@@ -38,9 +38,9 @@ public class Fonts {
 		
 		dateFont = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 8, SWT.NONE);
 		iconFont = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 6, SWT.NONE);
-		fixtureFont = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 14, SWT.BOLD);
-		competitionFont = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 12, SWT.NONE);
-		scoreFont = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 12, SWT.NONE);
+		fixtureFont = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 12, SWT.BOLD);
+		competitionFont = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 10, SWT.NONE);
+		scoreFont = new Font(Display.getDefault(), Fonts.DEFAULT_FONT_NAME, 11, SWT.BOLD);
 		
 		largeFont = new Font(null, Fonts.DEFAULT_FONT_NAME, 12, SWT.BOLD);
 		smallFont = new Font(null, Fonts.DEFAULT_FONT_NAME, 10, SWT.BOLD);
